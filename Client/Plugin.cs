@@ -1,5 +1,6 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
+using SoloOverhaul.Patches;
 
 namespace SoloOverhaul
 {
@@ -10,7 +11,9 @@ namespace SoloOverhaul
 
         private void Awake()
         {
-
+            new DisableInsuranceItem().Enable();
+            new DisableInsuranceItemClass().Enable();
+            new RemoveInsuranceScreen().Enable();
         }
     }
 }
