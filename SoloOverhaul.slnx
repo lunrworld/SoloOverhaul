@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Client/SoloOverhaulClient.csproj" />
+  <Project Path="Server/SoloOverhaulServer.csproj" />
+</Solution>
