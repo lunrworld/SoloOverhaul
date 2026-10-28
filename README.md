@@ -6,4 +6,4 @@ Solo Overhaul changes/overhauls/reworks/converts/modifies/alters the existing MM
 - Instant hideout crafting and construction
 - Insurance is removed
 
-Credit to DanW's [Hardcore Rules](https://forge.sp-tarkov.com/mod/784/hardcore-rules) mod, as his insurance removal code is used in this mod.
+Credit to DanW's [Hardcore Rules](https://sp-mod.com/mod/784/hardcore-rules) mod, as his insurance removal code is used in this mod.
