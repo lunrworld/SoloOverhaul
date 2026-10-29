@@ -14,6 +14,7 @@ namespace SoloOverhaul
             new DisableInsuranceItem().Enable();
             new DisableInsuranceItemClass().Enable();
             new RemoveInsuranceScreen().Enable();
+            new RemoveMailTimerGUI().Enable();
         }
     }
 }

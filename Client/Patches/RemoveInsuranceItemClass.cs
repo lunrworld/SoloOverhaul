@@ -13,8 +13,8 @@ namespace SoloOverhaul.Patches
     {
         protected override MethodBase GetTargetMethod()
         {
-            return typeof(EFT.UI.Insurance.InsuranceCompany).GetMethod(
-                nameof(EFT.UI.Insurance.InsuranceCompany.ItemTypeAvailableForInsurance),
+            return typeof(InsuranceCompany).GetMethod(
+                nameof(InsuranceCompany.ItemTypeAvailableForInsurance),
                 BindingFlags.Public | BindingFlags.Instance,
                 null,
                 new Type[] { typeof(InsuredItem) },
